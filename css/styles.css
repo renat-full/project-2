@@ -66,8 +66,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-    /* Цвет для "Studio" */
+    color: #4d5ae5;
+    
 }
 
 .studio {
@@ -82,16 +82,6 @@ body {
 
 .footer-studio{
     color: #f4f4fd;
-}
-
-.web{
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
 }
 
 .footer-web{
@@ -232,6 +222,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        background-color: #FFFFFF;
 }
 .team-item{
     background-color: #FFFFFF;
@@ -239,4 +230,5 @@ body {
 
 .footer-title{
     background-color: #2e2f42;
+    color:#4d5ae5;
 }
