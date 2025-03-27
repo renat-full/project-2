@@ -26,6 +26,10 @@ body {
     color: #2e2f42;
 }
 
+.team{
+    background-color:#F4F4FD;
+}
+
 .portfolio-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -66,15 +70,32 @@ body {
     /* Цвет для "Studio" */
 }
 
-.studio{
-    color:#2e2f42;
+.studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
-.web {
-    color: #4d5ae5;
-    line-height: 1.17;
+.footer-studio{
+    color: #f4f4fd;
+}
+
+.web{
     font-family: "Raleway", sans-serif;
-    /* Цвет для "Web" */
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.footer-web{
+    color:#4d5ae5;
 }
 
 .footer-text {
@@ -212,6 +233,10 @@ body {
         text-align: center;
         color: #2e2f42;
 }
+.team-item{
+    background-color: #FFFFFF;
+}
+
 .footer-title{
     background-color: #2e2f42;
 }
