@@ -19,7 +19,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -29,24 +30,50 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
+
+ .development-title{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+ }
+
+ .job-list{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+ }
 
 .webstudio {
     font-weight: 700;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
     /* Цвет для "Studio" */
 }
 
+.studio{
+    color:#2e2f42;
+}
+
 .web {
     color: #4d5ae5;
+    line-height: 1.17;
+    font-family: "Raleway", sans-serif;
     /* Цвет для "Web" */
 }
 
@@ -92,7 +119,7 @@ body {
     color: #404bbf;
 }
 
-.studio-link {
+.header-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -101,31 +128,23 @@ body {
     color: #2e2f42;
 }
 
-.portfolio-link,
-.contacts-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
 
-.contacts-email {
+
+.contacts-list {
     color: #434455;
     text-decoration: none;
 }
 
-.contacts-email:hover {
+.contacts-list:hover {
     color: #404bbf;
 }
 
-.contacts-tell {
+.contacts-list {
     color: #434455;
     text-decoration: none;
 }
 
-.contacts-tell:hover {
+.contacts-list:hover {
     color: #404bbf;
 }
 
@@ -167,7 +186,32 @@ body {
 }
 
 .advantages-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 
+}
+.advantage-subtitle{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.team-list-item{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.footer-title{
+    background-color: #2e2f42;
 }
