@@ -105,7 +105,7 @@ body {
 .nav-list li a {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: ##2E2F42;
 }
 
 .nav-list li a:hover {
@@ -133,6 +133,7 @@ body {
 .header-link {
     color: #2e2f42;
 }
+
 
 
 
